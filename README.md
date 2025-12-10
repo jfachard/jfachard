@@ -47,25 +47,25 @@ I'm looking for a **full-time developer position starting October 2026**.
 ### 🔹 **DevDuel — Real-time 1v1 Coding Quiz**  
 Real-time multiplayer coding quiz using WebSockets.  
 **Stack:** React, TypeScript, Node.js, Express, Socket.io  
-[→ Repository](#)
+[→ Repository](https://github.com/jfachard/DevDuel)
 
 ---
 
 ### 🔹 **The Last Key — VR Horror Escape Game**  
 Team project — VR escape room game built with Unity.  
-[→ Repository](#)
+[→ Repository](https://cloud.unity.com/home/organizations/9072054746043/projects/aafcf4ae-aa35-413c-9919-40b8b7c85caa/plastic-scm/organizations/9072054746043/repositories/TheLastKey%2FTheLastKey)
 
 ---
 
 ### 🔹 **Project Management Mobile App**  
 React Native app connected to the Trello API.  
-[→ Repository](#)
+[→ Repository](https://github.com/jfachard/TrellTech)
 
 ---
 
 ### 🔹 **IRC Chat — MERN + Real-Time**  
 Full-stack chat app with instant messaging.  
-[→ Repository](#)
+[→ Repository](https://github.com/jfachard/Chat)
 
 ---
 
