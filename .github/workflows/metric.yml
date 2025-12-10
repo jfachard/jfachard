@@ -3,44 +3,38 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
+  push:
+    branches: ["main"]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write 
     steps:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Obligatoire
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Profil cible
           user: jfachard
           template: classic
           base: header, activity, repositories
-
-          # ⬇️ Plugins simples & professionnels
-          # Activité globale
+          config_timezone: Europe/Paris 
+          
+          # Activité
           plugin_activity: yes
           plugin_activity_limit: 5
-
-          # Graphique des langages
+          
+          # Langages
           plugin_languages: yes
-          plugin_languages_limit: 10
+          plugin_languages_limit: 8
           plugin_languages_threshold: 1%
           plugin_languages_sections: most-used
-          plugin_languages_indepth: no
-          plugin_languages_categories: programming
-
-          # Contributions notables
+          plugin_languages_colors: github 
+          
           plugin_notable: yes
           plugin_notable_indepth: yes
-
-          # Achievements (mode pro / discret)
+          
           plugin_achievements: yes
           plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
           plugin_achievements_display: compact
-
-          # Sortie du fichier
-          filename: github-metrics.svg
+          plugin_achievements_limit: 0 
