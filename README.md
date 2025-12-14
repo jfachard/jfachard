@@ -76,6 +76,6 @@ Full-stack chat app with instant messaging.
 ---
 
 ## 🔗 Portfolio  
-👉 https://jfachard.github.io/
+👉 https://jfachard.vercel.app/
 
 Thanks for visiting my profile!
