@@ -44,6 +44,20 @@ I'm looking for a **full-time developer position starting October 2026**.
 
 ## 📌 Featured Projects
 
+### 🟩 **Wordev — Wordle for Developers**
+Full-stack Wordle-inspired game where every word comes from the dev world. Solo, Daily, and real-time 1v1 Versus mode with ELO ranking.  
+**Stack:** Vue.js 3, TypeScript, NestJS, PostgreSQL, Prisma, Socket.io  
+[→ Repository](https://github.com/jfachard/Wordev)
+
+---
+
+### 🗺️ **Work Spot — Find Your Perfect Work Spot**
+Mobile app to discover cafés, libraries and coworking spaces suited for work. Filter by wifi, power outlets, noise level, and get Spotify playlist recommendations per vibe.  
+**Stack:** React Native, TypeScript, Expo, NestJS, PostgreSQL, Prisma, Socket.io, Google Maps API, Spotify API  
+[→ Repository](https://github.com/jfachard/Work-Spot)
+
+---
+
 ### 🔹 **DevDuel — Real-time 1v1 Coding Quiz**  
 Real-time multiplayer coding quiz using WebSockets.  
 **Stack:** React, TypeScript, Node.js, Express, Socket.io  
